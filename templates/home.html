@@ -1,6 +1,6 @@
 <h1>Vice Versa!!!</h1>
-<form>
-    <textarea rows="4" cols="50" name="myTextarea" placeholder="Введите текст здесь..."></textarea>
+<form action="{% url 'reverse' %}">
+    <textarea rows="4" cols="50" name="usertext" placeholder="Введите текст здесь..."></textarea>
     <br><br>
     <input type ='submit' value="reverse">
 </form>
